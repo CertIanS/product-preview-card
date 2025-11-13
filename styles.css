@@ -1,0 +1,28 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+h1{
+    font-family: "Fraunces", serif;
+}
+p, button{
+    font-family: "Montserrat", serif;
+}
+button{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    width: 25%;
+}
+.card{
+    max-width: 44em;
+    background-color: hsl(0, 0%, 100%);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.firstPrice{
+    text-decoration: line-through;
+}
