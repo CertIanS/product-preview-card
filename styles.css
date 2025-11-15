@@ -4,6 +4,10 @@ body{
 h1{
     font-family: "Fraunces", serif;
 }
+img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 p, button{
     font-family: "Montserrat", serif;
 }
@@ -11,9 +15,17 @@ button{
     background-color: hsl(158, 36%, 37%);
     color: white;
     width: 25%;
+    border-radius: 7px;
+    border: none;
+    width: 90%;
+    height: 10%;
+}
+button:hover{
+    background-color: hsl(158, 42%, 18%);
+    cursor: pointer;
 }
 .card{
-    max-width: 44em;
+    max-width: 40em;
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
     height: 450px;
@@ -24,6 +36,9 @@ button{
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+}
+.discountPrice{
+    color: hsl(158, 36%, 37%);
 }
 .firstPrice{
     text-decoration: line-through;
@@ -36,5 +51,11 @@ button{
     img{
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
+    }
+}
+@media screen and (max-width: 40em){
+    .card{
+        max-width: 350px;
+        height: auto;
     }
 }
