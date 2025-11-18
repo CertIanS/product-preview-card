@@ -14,11 +14,10 @@ p, button{
 button{
     background-color: hsl(158, 36%, 37%);
     color: white;
-    width: 25%;
     border-radius: 7px;
     border: none;
     width: 90%;
-    height: 10%;
+    height: 50px;
 }
 button:hover{
     background-color: hsl(158, 42%, 18%);
@@ -37,6 +36,14 @@ button:hover{
     flex-direction: column;
     height: 100vh;
 }
+.productInfo{
+    margin: 10px;
+}
+.cartButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .discountPrice{
     color: hsl(158, 36%, 37%);
 }
@@ -51,6 +58,9 @@ button:hover{
     img{
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
+    }
+    button{
+        margin-right: 20px;
     }
 }
 @media screen and (max-width: 40em){
