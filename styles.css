@@ -11,6 +11,10 @@ img{
 p, button{
     font-family: "Montserrat", serif;
 }
+p{
+    color: hsl(228, 12%, 48%);
+    line-height: 1.8;
+}
 button{
     background-color: hsl(158, 36%, 37%);
     color: white;
@@ -43,6 +47,14 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.prices{
+    display: flex;
+    align-items: center;
+    
+}
+.prices h1{
+    padding-right: 20px;
 }
 .discountPrice{
     color: hsl(158, 36%, 37%);
