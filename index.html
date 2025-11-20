@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
@@ -15,11 +15,8 @@
 <body>
   <div class="container">
     <div class="card">
-      <!--Alternate code for responsive images-->
-      <!--<img src="images/image-product-mobile.jpg" alt="product" 
-      srcset="images/image-product-mobile.jpg 300w, images/image-product-desktop.jpg 600w" sizes="(min-width: 44em) 33vw, 40vw"/>-->
       <picture>
-        <source srcset="images/image-product-desktop.jpg" media="(min-width: 40em)" width="300" height="450">
+        <source srcset="images/image-product-desktop.jpg" media="(min-width: 40em)" width="320" height="480">
         <img src="images/image-product-mobile.jpg" alt="product" width="365" height="342"/>
       </picture>
       <div class="productInfo">
